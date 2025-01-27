@@ -9,10 +9,10 @@
             </field>
             <field name="barcode" position="after">
                 <field name="barcode_ids">
-                    <tree string="Barcodes" editable="bottom">
+                    <list string="Barcodes" editable="bottom">
                         <field name="sequence" widget="handle" />
                         <field name="name" />
-                    </tree>
+                    </list>
                 </field>
             </field>
         </field>
