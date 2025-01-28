@@ -55,6 +55,6 @@ class ProductBarcode(models.Model):
             )
             if barcodes:
                 raise UserError(
-                    _('The Barcode "%s" already exists for product ' '"%s"')
+                    self.env._('The Barcode "%s" already exists for product ' '"%s"')
                     % (record.name, barcodes[0].product_id.name)
                 )
